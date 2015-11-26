@@ -1,0 +1,1002 @@
+html
+{
+	overflow-y:scroll;
+}
+
+#superfish-1
+{
+	width:940px;
+	height:34px;
+}
+
+#banner
+{
+	height:auto;
+	position:relative;
+	padding:15px 0;	
+	background:url("gfx/bannerbg.png") repeat !important;
+}
+
+#header
+{
+	position:relative;
+}
+
+#content
+{
+	background:url("gfx/contentbg.png") repeat !important;
+}
+
+.front #content-inside 
+{
+	padding: 80px 0 60px;
+}
+
+.wrapper
+{
+	width:960px;
+	margin:0 auto;
+	position: relative;
+}
+
+h2.slagzin
+{
+	display:inline;
+	width: auto;
+	position: absolute;
+	top:280px;
+	left:20px;
+	background:white;
+	color:black;
+	font-size:30px;
+	font-weight: bold;
+	padding:15px;
+	margin:0;
+	line-height: 100%;
+	opacity: 0.85;
+}
+
+#block-views-fotoslider-block img
+{
+	border:7px solid white;
+	-webkit-box-shadow: 0 0 6px 0px #999;
+	-moz-box-shadow: 0 0 6px 0px #999;
+	-ms-box-shadow: 0 0 6px 0px #999;
+	-o-box-shadow: 0 0 6px 0px #999;
+	box-shadow: 0 0 6px 0px #999;
+}
+
+#block-block-1
+{
+	width:285px;
+	height:52px;
+	position: absolute;
+	right:25px;
+	top:25px;
+	z-index: 99;
+	background:url("gfx/calltoaction.png") -3px -4px no-repeat;
+}
+
+#block-block-1:hover
+{
+	background:url("gfx/calltoaction.png") -3px -70px no-repeat;
+}
+
+#block-block-1 p a
+{
+	color:#fff;
+	display: block;
+	width:268px;
+	height:52px;
+	line-height: 52px;
+	padding-left: 15px;
+}
+
+#block-block-1 p a:hover
+{
+	text-decoration: underline;
+}
+
+#block-block-1 p
+{
+	color:white;
+	font-weight: bold;
+	margin:0;
+	font-size:14px;
+}
+
+#sidebar-second
+{
+	border-left:1px dotted #ccc;
+	width:278px;
+	padding:0 0 0 20px;
+}
+
+/* =================================  */
+	
+	/*PROMOTIE SPECIFIC*/
+
+/* =================================  */
+
+.promotieStyle
+{
+	clear:both;
+	position: relative;
+	margin-bottom: 35px;
+}
+
+.promotieStyle .views-field-title
+{
+	display:block;
+	width:400px;
+	height:35px;
+	background:#f3f3f3;
+	text-align: center;
+
+}
+
+
+.promotieStyle .views-field-title a
+{
+	display: block;
+	color:#333;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 35px;
+}
+
+.promotieStyle .views-field-title a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+.promotieStyle .views-field-field-fotos-promoties
+{
+	display:block;
+	width:400px;
+}
+.promotieStyle .views-field-field-fotos-promoties img
+{
+	border:3px solid #f3f3f3;
+	border-bottom:none;
+}
+
+.promotieStyle .views-field-field-datum-promoties
+{
+	display:block;
+	top:10px;
+	right:5px;
+	font-size:20px;
+	color:white;
+	font-weight:bold;
+	position: absolute;
+	background:#d41514;
+	padding:12px 8px;
+}
+
+/* =================================  */
+	
+	/*NIEUWS SPECIFIC*/
+
+/* =================================  */
+
+.nieuwsStyle
+{
+	position:relative;
+	clear:both;
+	margin-bottom:35px;
+	height:140px;
+}
+
+.nieuwsStyle .views-field-field-fotos img
+{
+	display:block;
+	border:3px solid #f3f3f3;
+	height:137px;
+	width:200px;
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+
+.nieuwsStyle .views-field-title
+{
+	display:block;
+	width:300px;
+	height:35px;
+	float:left;
+}
+
+.nieuwsStyle .views-field-title a
+{
+	line-height: 35px;
+	font-weight: bold;
+	padding:0 5px;
+	font-size:15px;
+}
+
+.nieuwsStyle .views-field-title a:hover
+{
+	text-decoration: underline;
+}
+
+.nieuwsStyle .views-field-field-nieuwsbericht
+{
+	display:block;
+	width:300px;
+	max-height:75px;
+	float:left;
+	padding:0 5px;
+}
+
+.nieuwsStyle .views-field-view-node
+{
+	display:block;
+	width:300px;
+	height:25px;
+	float:left;
+	padding:0 5px;
+}
+
+.nieuwsStyle .views-field-view-node a
+{
+	line-height: 25px;
+
+}
+
+.nieuwsStyle .views-field-view-node a:hover
+{
+	text-decoration: underline;
+}
+
+.nieuwsStyle .views-field-created
+{
+	position: absolute;
+	right:10px;
+	top:10px;
+	display:block;
+	height:70px;
+	width:70px;
+	text-align: center;
+	background:#2e2e2e;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	border-radius: 50px;
+	line-height: 70px;
+	color:white;
+	font-weight: bold;
+}
+
+/* =================================  */
+	
+	/*DEALER*/
+
+/* =================================  */
+
+.dealerList{
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.dealerList .dealerStyle
+{
+	width:193px;
+	float:left;
+	margin-bottom: 35px;
+	margin-right:25px;
+	background:#fdfdfd;
+	padding:5px;
+	border:1px solid #f3f3f3;
+}
+
+.dealerStyle:hover
+{
+	-webkit-box-shadow:0 0 15px 5px #ccc;
+	-moz-box-shadow:0 0 15px 5px #ccc;
+	-ms-box-shadow:0 0 15px 5px #ccc;
+	-o-box-shadow:0 0 15px 5px #ccc;
+	box-shadow:0 0 15px 5px #ccc;
+}
+
+.dealerStyle .views-field-field-foto-dealer img
+{
+	border:1px solid #f3f3f3;
+}
+
+
+/* =================================  */
+	
+	/*BIKE MENU*/
+
+/* =================================  */
+
+
+#block-menu-menu-fietsmenu .menu
+{
+	width:100%;
+	list-style-type: none;
+	margin:0 auto;
+	padding:0;
+}
+
+#block-menu-menu-fietsmenu .menu li
+{
+	display:block;
+	width:180px;
+	height:40px;
+	margin:0 7px;
+	background:#2e2e2e;
+	float:left;
+	padding:0;
+	text-align: center;
+	-webkit-box-shadow: 0 0 7px 1px #999;
+	-moz-box-shadow: 0 0 7px 1px #999;	
+	-ms-box-shadow: 0 0 7px 1px #999;
+	-o-box-shadow: 0 0 7px 1px #999;
+	box-shadow: 0 0 7px 1px #999;
+}
+
+#block-menu-menu-fietsmenu .menu li:first-child
+{
+	margin-left:0;
+}
+
+#block-menu-menu-fietsmenu .menu li:last-child
+{
+	margin-right:0;
+}
+
+#block-menu-menu-fietsmenu .menu a
+{
+	display:block;
+	width:180px;
+	height:40px;
+	line-height:40px;
+	font-size: 16px;
+	color:white; 
+}
+
+#block-menu-menu-fietsmenu .menu a:hover
+{
+	text-decoration: underline;
+}
+
+#block-menu-menu-fietsmenu .active
+{
+	background:#d41514;
+	text-decoration: underline;
+}
+
+.page-fietsen-road #block-menu-menu-fietsmenu .menu li:first-child
+{
+	background:#d41514;
+	text-decoration: underline;
+}
+
+
+/* =================================  */
+	
+	/*FRONT PAGE BIKE MENU*/
+
+/* =================================  */
+
+
+.front #block-menu-menu-fietsmenu .menu
+{
+	width:100%;
+	list-style-type: none;
+	margin:0 auto;
+	padding:0;
+}
+
+.front #block-menu-menu-fietsmenu .menu li
+{
+	display:block;
+	width:180px;
+	height:140px;
+	margin:0 7px;
+	background:#2e2e2e;
+	float:left;
+	padding:0;
+	text-align: center;
+	-webkit-box-shadow: 0 0 7px 1px #999;
+	-moz-box-shadow: 0 0 7px 1px #999;	
+	-ms-box-shadow: 0 0 7px 1px #999;
+	-o-box-shadow: 0 0 7px 1px #999;
+	box-shadow: 0 0 7px 1px #999;
+}
+
+.front #block-menu-menu-fietsmenu .menu li:first-child
+{
+	margin-left:0;
+}
+
+.front #block-menu-menu-fietsmenu .menu li:last-child
+{
+	margin-right:0;
+}
+
+.front #block-menu-menu-fietsmenu .menu a
+{
+	display:block;
+	width:180px;
+	height:140px;
+	line-height:250px;
+	font-size: 16px;
+	color:white; 
+}
+
+.front #block-menu-menu-fietsmenu .menu a:hover
+{
+	text-decoration: underline;
+}
+
+.front #block-menu-menu-fietsmenu .menu a#roadBikes
+{
+	background:url("gfx/road.png") no-repeat;
+}
+
+.front #block-menu-menu-fietsmenu .menu a#mtbBikes
+{
+	background:url("gfx/mtb.png") no-repeat;
+}
+
+.front #block-menu-menu-fietsmenu .menu a#crossBikes
+{
+	background:url("gfx/cross.png") no-repeat;
+}
+
+.front #block-menu-menu-fietsmenu .menu a#fitnessBikes
+{
+	background:url("gfx/fitness.png") no-repeat;
+}
+
+.front #block-menu-menu-fietsmenu .menu a#kidsBikes
+{
+	background:url("gfx/kids.png") no-repeat;
+}
+
+
+/* =================================  */
+	
+	/*FRONTPAGE SPECIFIC*/
+
+/* =================================  */
+
+#block-views-nieuws-block-1,
+#block-views-promoties-block-1
+{
+	display:block;
+	width:300px;
+	height:210px;
+	float:left;
+}
+
+#block-views-nieuws-block-1
+{
+	margin-left:-10px;
+}
+
+#block-views-promoties-block-1
+{
+	margin-left:30px;
+}
+
+.front .nieuwsStyle
+{
+	position:relative;
+	clear:none;
+	width:300px;
+	height:210px;
+	background:#333;
+	margin:0;
+}
+
+.front .nieuwsStyle .views-field-field-fotos img
+{
+	display:block;
+	border:none;
+	width:300px;
+	height:170px;
+	float:none;
+	clear:both;
+	margin:0;
+}
+
+.front .promotieStyle
+{
+	clear:none;
+	position: relative;
+	height:210px;
+	width:300px;
+	background:#333;
+	margin:0;
+}
+
+.front .nieuwsStyle,
+.front .promotieStyle
+{
+	border:1px solid #444;
+}
+
+.front .promotieStyle .views-field-field-fotos-promoties img
+{
+	border:none;
+	margin:0;
+}
+
+.front .promotieStyle .views-field-field-fotos-promoties
+{
+	display:block;
+	width:300px;
+	height:170px;
+}
+
+.front .nieuwsStyle a,
+.front .promotieStyle a
+{
+	display:block;
+	width:280px;
+	clear:both;
+	height:40px;
+	line-height: 40px;
+	color:white;
+	font-size: 16px;
+	padding:0 10px;
+	background:#222 url("gfx/arrows2.png") 100% 0% no-repeat;
+}
+
+.front .nieuwsStyle a:hover, 
+.front .promotieStyle a:hover
+{
+	text-decoration: underline;
+	background:#111 url("gfx/arrows2.png") 100% 0% no-repeat;
+}
+
+
+/* =================================  */
+	
+	/*FIETSEN SPECIFIC*/
+
+/* =================================  */
+
+
+.fietsView ul
+{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	width: 100%;
+}
+
+.fietsView .fietsStyle
+{
+	display:block;
+	width:212px;
+	border:1px solid #f3f3f3;
+	margin-left:0;
+	margin-right:20px;
+	float:left;
+	height:auto;
+	margin-bottom:35px;
+	background:#fff;
+}
+
+.fietsStyle
+{
+	/*
+	-webkit-box-shadow:0 0 7px 0 #999 inset;
+	-moz-box-shadow:0 0 7px 0 #999 inset;
+	-ms-box-shadow:0 0 7px 0 #999 inset;
+	-o-box-shadow:0 0 7px 0 #999 inset;
+	box-shadow:0 0 7px 0 #999 inset;
+	*/
+}
+
+
+
+.fietsStyle:hover
+{
+	-webkit-box-shadow:0 0 15px 5px #ccc;
+	-moz-box-shadow:0 0 15px 5px #ccc;
+	-ms-box-shadow:0 0 15px 5px #ccc;
+	-o-box-shadow:0 0 15px 5px #ccc;
+	box-shadow:0 0 15px 5px #ccc;
+}
+
+.fietsStyle img
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.fietsStyle .views-field-title a
+{
+	display:block;
+	width:195px;
+	padding:10px;
+	border-bottom:1px dotted #ccc;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size:16px;
+	color:#333;
+}
+
+.fietsStyle .views-field-title a:hover
+{
+	text-decoration: underline;
+	background:url("gfx/arrow.png") 95% 50% no-repeat;
+}
+
+.fietsStyleHover
+{
+	background:url("gfx/arrow.png") no-repeat;
+}
+
+
+
+/* =================================  */
+	
+	/*SEC NAV SPECIFIC*/
+
+/* =================================  */
+
+
+
+#block-menu-menu-secondarynav
+{
+	position:absolute;
+	right:10px;
+	top:5px;
+}
+
+#block-menu-menu-secondarynav ul
+{
+	width:100%;
+	list-style-type: none;
+	margin:10px 0;
+	padding:0;
+}
+
+#block-menu-menu-secondarynav li
+{
+	display:inline;
+	font-size:11px;
+}
+
+#block-menu-menu-secondarynav li a
+{
+	color:#ccc;
+}
+
+#block-menu-menu-secondarynav li a:hover
+{
+	text-decoration:underline;
+}
+
+.logged-in #myLogin
+{
+	display:none;
+}
+
+
+
+
+
+/* =================================  */
+	
+	/*DEALER DETAIL*/
+
+/* =================================  */
+
+
+
+.field-name-field-foto-dealer,
+.field-name-field-afbeeldingen-winkel .field-item
+{
+	width:220px;
+	height:145px;
+	float:left;
+	margin-bottom:30px;
+}
+
+.field-name-field-foto-dealer img,
+.field-name-field-afbeeldingen-winkel img
+{
+	margin:0;
+}
+
+.field-name-field-afbeeldingen-winkel .field-item
+{
+	width:200px;
+	margin-right:5px;
+}
+
+.field-name-field-adres-filiaal
+{
+	width:368px;
+	height:141px;
+	float:left;
+	font-size:14px;
+	margin-left:30px;
+	border-bottom:1px solid #ddd;
+}
+
+.field-name-field-telefoonnummer,
+.field-name-field-website,
+.field-name-field-email
+
+{
+	clear:both;
+}
+
+.field-name-field-openingsuren
+{
+	margin-top:30px;
+	border-bottom:1px solid #bbb;
+}
+
+.field-name-field-openingsuren table td,
+.field-name-field-openingsuren tr.odd,
+.field-name-field-openingsuren tr.even
+{
+	border:none;
+}
+
+.field-name-field-openingsuren tr p
+{
+	margin:0; 
+}
+
+.field-name-field-openingsuren .col_0
+{
+	font-weight:bold;
+	font-size:11px;
+}
+
+.field-name-field-openingsuren .col_1
+{
+	text-align: right;
+}
+
+.node-dealer .field-label
+{
+	font-size:12px;
+	color:#999;
+	width:100px;
+	margin-bottom:5px;
+}
+
+.field-name-field-extra-informatie .field-label,
+.field-name-field-afbeeldingen-winkel .field-label
+{
+	width:auto;
+}
+
+
+.field-name-field-extra-informatie
+{
+	margin-top: 30px;
+}
+
+/* =================================  */
+	
+	/*FIETS DETAIL*/
+
+/* =================================  */
+
+
+.node-fiets .field-name-field-fietsfoto
+{
+	width:670px;
+	height:420px;
+	float:left;
+	margin-bottom: 30px;
+}
+
+.node-fiets .field-name-field-fietsfoto img,
+.node-fiets .field-name-field-meer-afbeeldingen img
+{
+	margin:0;
+}
+
+.node-fiets .field-name-field-meer-afbeeldingen img
+{
+	margin-bottom:10px;
+}
+
+.node-fiets .field-name-field-meer-afbeeldingen
+{
+	width:135px;
+	height:420px;
+	float:left;
+	margin-left:35px;
+}
+
+.node-fiets .field-name-field-beschrijving-fiets
+{
+	clear:both;
+}
+
+
+.node-fiets .field-name-field-frame-en-onderdelen
+{
+	margin-bottom:30px;
+}
+
+.node-fiets .field-name-field-frame-en-onderdelen table td,
+.node-fiets .field-name-field-frame-en-onderdelen tr.odd,
+.node-fiets .field-name-field-frame-en-onderdelen tr.even
+{
+	border:none;
+}
+
+.node-fiets .field-name-field-frame-en-onderdelen tr p
+{
+	margin:0; 
+}
+
+.node-fiets .field-name-field-frame-en-onderdelen .col_0
+{
+	font-weight:bold;
+	width:250px;
+}
+
+.node-fiets .field-name-field-frame-en-onderdelen .col_1
+{
+	text-align: left;
+}
+
+.node-fiets .field-name-field-groepset,
+.node-fiets .field-name-field-groepset-shimano,
+.node-fiets .field-name-field-groepset-miche,
+.node-fiets .field-name-field-wielsets
+{
+	width:200px;
+	float:left;
+	margin-right:22px;
+	margin-bottom:30px;
+	padding-left:10px;
+	border-left:1px solid #ddd;
+}
+
+.node-fiets .field-name-field-geometrie-foto
+{
+	float:left;
+	clear:left;
+}
+
+.node-fiets .field-name-field-geometrie-foto img
+{
+	margin:0;
+}
+
+.node-fiets .field-name-field-geometrietabel
+{
+	float:left;
+	margin-top:24px;
+	margin-left:30px;
+	width:470px;
+}
+
+
+.node-fiets .field-name-field-geometrietabel table td,
+.node-fiets .field-name-field-geometrietabel tr.odd,
+.node-fiets .field-name-field-geometrietabel tr.even
+{
+	border:none;
+}
+
+.node-fiets .field-name-field-geometrietabel tr p
+{
+	margin:0; 
+}
+
+.node-fiets .field-name-field-geometrietabel .col_0
+{
+	font-weight:bold;
+	width:40px;
+}
+
+.node-fiets .field-name-field-geometrietabel .col_1,
+.node-fiets .field-name-field-geometrietabel .col_2,
+.node-fiets .field-name-field-geometrietabel .col_3,
+.node-fiets .field-name-field-geometrietabel .col_4,
+.node-fiets .field-name-field-geometrietabel .col_5,
+.node-fiets .field-name-field-geometrietabel .col_6,
+.node-fiets .field-name-field-geometrietabel .col_7,
+.node-fiets .field-name-field-geometrietabel .col_8
+{
+	text-align: center;
+	width:40px;
+}
+
+.node-fiets .field-label
+{
+	margin-bottom:5px;
+}
+
+
+/* =================================  */
+	
+	/*EXTRA*/
+
+/* =================================  */
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix {display:inline-block;}
+/* Hide from IE Mac \*/
+	.clearfix {display:block;}
+/* End hide from IE Mac */
+
+/* =================================  */
+	
+	/*SOCIAL MEDIA*/
+
+/* =================================  */
+
+.block .social-media-links.vertical li 
+{
+	clear:both;
+	height:35px;
+	margin-bottom:8px;
+}
+
+.block .social-media-links.vertical li a img
+{
+	float:left;
+	height:35px;
+	width:35px;
+}
+
+.block .social-media-links.vertical li a span
+{
+	float:left;
+	display:block;
+	height:35px;
+	line-height: 35px;
+	padding-left:10px;
+}
+
+.region-sidebar-second .block .content 
+{
+	padding:0;
+	padding-left:20px;
+	padding-top:5px;
+	margin-bottom:30px;
+}
+
+
+.footer-area #block-system-main-menu ul li
+{
+	display:block;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
